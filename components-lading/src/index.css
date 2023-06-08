@@ -1,18 +1,18 @@
-#root{
+#root {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 .main__container_app_components {
     background-color: #D3EAFF;
     padding: 1rem;
 }
-.main__container__app_ofertas{
-    margin-top: 2rem;
-}
 
 .btnStylePagos {
-    padding: 11px 64px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 217px;
     height: 35px;
     background: #0D4E88;
@@ -21,22 +21,15 @@
     border: 0;
     color: white;
     bottom: 49px;
-
-}
-
-.btnStylePagos__left {
-    left: 26px;
-}
-
-.btnStylePagos__right {
-    right: 26px;
 }
 
 .btnStyleOfertas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     width: 121px;
     height: 35px;
-    padding: 11px 24px 10px;
     bottom: 15px;
     background-color: #0D4E88;
     border: 0;
@@ -45,11 +38,37 @@
     border-radius: 12px;
 }
 
+.btnStylePagos:active {
+    color: white;
+    background-color: #272626;
+}
+
+.btnStylePagos:active {
+    color: white;
+    background-color: #272626;
+}
+
+.btnStylePagos:hover {
+    color: white;
+    background-color: #283747;
+}
+
+.btnStylePagos:hover {
+    color: white;
+    background-color: #283747;
+}
+
+.btnStylePagos__left {
+    left: 14px;
+}
+
 .main__container__app_ofertas {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 32px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .main__container__ofertas__secciones {
@@ -71,6 +90,8 @@
 }
 
 .main__container__ofertas__secciones__text {
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 64px;
     position: absolute;
@@ -89,6 +110,7 @@
     color: white;
     text-align: left;
     padding-left: 3rem;
+    margin: 0 !important;
 }
 
 .main__container_pagos_boxes {
@@ -126,13 +148,14 @@
     height: 75px;
     padding: 16px;
     position: absolute;
-    top: 44px;
+    top: 31px;
 }
 
-.text_position__right{
+.text_position__right {
     right: 16px;
 }
-.text_position__left{
+
+.text_position__left {
     left: 16px;
 }
 
@@ -148,14 +171,15 @@
 .main__container__boxs__pagos__text>p {
     font-family: 'Qanelas Soft';
     font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     margin: 0;
 }
-.boxs_left{
+
+.boxs_left {
     left: 16px;
 }
+
 .btnStylePagos__right {
     right: 33px;
 }
@@ -171,9 +195,26 @@
     margin: auto;
     margin-bottom: 2rem;
 }
-.main__container__redes__text{
+
+.main__container__redes__text {
     position: absolute;
     left: 10%;
+    bottom: 10%;
+}
+
+.main__container__redes__text>h2 {
+    font-family: 'Qanelas Soft';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.main__container__redes>p {
+    font-family: 'Qanelas Soft';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .main__container__redes>h2 {
@@ -189,6 +230,7 @@
 }
 
 .main__container__redes__img_left {
+    bottom: -3px;
     position: absolute;
     left: 16px;
     width: 76px;
