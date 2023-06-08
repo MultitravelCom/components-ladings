@@ -1,12 +1,12 @@
-import './App.css'
+import "./App.css";
+import Redes from "./Components/Redes";
 
 function App() {
-
   return (
     <>
-    
+      <Redes />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
