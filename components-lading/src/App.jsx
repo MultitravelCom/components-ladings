@@ -11,7 +11,6 @@ function App() {
         <Pagos />
       </div>
       <div className="main__container__app_ofertas">
-        <h2>Más ofertas en Multitravel.com</h2>
         <Ofertas />
       </div>
     </>
