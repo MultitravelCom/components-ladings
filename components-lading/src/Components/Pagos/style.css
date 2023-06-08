@@ -1,0 +1,67 @@
+.main__container_pagos_boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main__container__boxs__pagos {
+    display: flex;
+    align-items: center;
+    width: 560px;
+    height: 241px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: left;
+    position: relative;
+}
+
+.main__container__boxs__pagos__img {
+    width: 273px;
+    height: 225px;
+    position: absolute;
+    right: 14px;
+}
+
+.main__container__boxs__pagos__img>img {
+    width: 273px;
+    height: 225px;
+}
+
+.main__container__boxs__pagos__text {
+    width: 217px;
+    height: 75px;
+    padding: 16px;
+    position: absolute;
+    top: 44px;
+}
+
+.text_position__right{
+    right: 16px;
+}
+.text_position__left{
+    left: 16px;
+}
+
+.main__container__boxs__pagos__text>h2 {
+    font-family: 'Qanelas Soft';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0 0 6px 0;
+}
+
+.main__container__boxs__pagos__text>p {
+    font-family: 'Qanelas Soft';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+}
+.boxs_left{
+    left: 16px;
+}
+.btnStylePagos__right {
+    right: 33px;
+}

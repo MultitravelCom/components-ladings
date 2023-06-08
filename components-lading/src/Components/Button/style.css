@@ -1,0 +1,33 @@
+.btnStylePagos {
+    padding: 11px 64px 10px;
+    width: 217px;
+    height: 35px;
+    background: #0D4E88;
+    border-radius: 12px;
+    position: absolute;
+    border: 0;
+    color: white;
+    bottom: 49px;
+
+}
+
+.btnStylePagos__left {
+    left: 26px;
+}
+
+.btnStylePagos__right {
+    right: 26px;
+}
+
+.btnStyleOfertas {
+    position: absolute;
+    width: 121px;
+    height: 35px;
+    padding: 11px 24px 10px;
+    bottom: 15px;
+    background-color: #0D4E88;
+    border: 0;
+    right: 26px;
+    color: white;
+    border-radius: 12px;
+}
