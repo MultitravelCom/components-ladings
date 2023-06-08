@@ -1,7 +1,8 @@
 .main__container_pagos_boxes {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 36px;
 }
 
 .main__container__boxs__pagos {

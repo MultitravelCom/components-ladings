@@ -16,6 +16,7 @@ function Ofertas() {
          <Secciones
           boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-paquetes.webp"
           boxs_ofertas_text="Paquetes"
+          btn_link="https://www.multitravel.com/insurances/"
         />
         <Secciones
           boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-alojamiento.webp"

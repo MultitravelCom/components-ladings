@@ -12,4 +12,4 @@ function Button(props) {
         <button id={props.id} className={props.style} onClick={handleClick}>{props.text}</button>
         );
 }
-export default Button
+export default Button;
