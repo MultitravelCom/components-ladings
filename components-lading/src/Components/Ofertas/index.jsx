@@ -8,80 +8,88 @@ function Ofertas() {
   if (path === "/flights/") {
     return (
       <>
-        <Secciones
-          boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-alojamiento.webp"
-          boxs_ofertas_text="Alojamiento"
-          btn_link="https://www.multitravel.com/hotels/"
-        />
-         <Secciones
-          boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-paquetes.webp"
-          boxs_ofertas_text="Paquetes"
-          btn_link="https://www.multitravel.com/insurances/"
-        />
-        <Secciones
-          boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-alojamiento.webp"
-          boxs_ofertas_text="Asistencias"
-        />
+        <div className="main__container_secciones">
+          <Secciones
+            boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-alojamiento.webp"
+            boxs_ofertas_text="Alojamiento"
+            btn_link="https://www.multitravel.com/hotels/"
+          />
+          <Secciones
+            boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-paquetes.webp"
+            boxs_ofertas_text="Paquetes"
+            btn_link="https://www.multitravel.com/insurances/"
+          />
+          <Secciones
+            boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-alojamiento.webp"
+            boxs_ofertas_text="Asistencias"
+          />
+        </div>
       </>
     );
   } else if (path === "/hotels/") {
     return (
       <>
-         <Secciones
-          boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-paquetes.webp"
-          boxs_ofertas_text="Paquetes"
-          btn_link="https://www.multitravel.com/packages/flighthotel/"
-        />
-         <Secciones
-          boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-vuelo.webp"
-          boxs_ofertas_text="Vuelos"
-          btn_link="https://www.multitravel.com/flights/"
-        />
-        <Secciones
-          boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-alojamiento.webp"
-          boxs_ofertas_text="Asistencias"
-          btn_link="https://www.multitravel.com/insurances/"
-        />
+        <div className="main__container_secciones">
+          <Secciones
+            boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-paquetes.webp"
+            boxs_ofertas_text="Paquetes"
+            btn_link="https://www.multitravel.com/packages/flighthotel/"
+          />
+          <Secciones
+            boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-vuelo.webp"
+            boxs_ofertas_text="Vuelos"
+            btn_link="https://www.multitravel.com/flights/"
+          />
+          <Secciones
+            boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-alojamiento.webp"
+            boxs_ofertas_text="Asistencias"
+            btn_link="https://www.multitravel.com/insurances/"
+          />
+        </div>
       </>
     );
   } else if (path === "/packages/flighthotel/") {
     return (
       <>
-         <Secciones
-          boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-alojamiento.webp"
-          boxs_ofertas_text="Alojamiento"
-          btn_link="https://www.multitravel.com/hotels/"
-        />
+        <div className="main__container_secciones">
           <Secciones
-          boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-vuelo.webp"
-          boxs_ofertas_text="Vuelos"
-          btn_link="https://www.multitravel.com/flights/"
-        />
-        <Secciones
-          boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-alojamiento.webp"
-          boxs_ofertas_text="Asistencias"
-          btn_link="https://www.multitravel.com/insurances/"
-        />
+            boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-alojamiento.webp"
+            boxs_ofertas_text="Alojamiento"
+            btn_link="https://www.multitravel.com/hotels/"
+          />
+          <Secciones
+            boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-vuelo.webp"
+            boxs_ofertas_text="Vuelos"
+            btn_link="https://www.multitravel.com/flights/"
+          />
+          <Secciones
+            boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-alojamiento.webp"
+            boxs_ofertas_text="Asistencias"
+            btn_link="https://www.multitravel.com/insurances/"
+          />
+        </div>
       </>
     );
   } else {
     return (
       <>
-         <Secciones
-          boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-alojamiento.webp"
-          boxs_ofertas_text="Alojamiento"
-          btn_link="https://www.multitravel.com/hotels/"
-        />
-        <Secciones
-          boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-vuelo.webp"
-          boxs_ofertas_text="Vuelos"
-          btn_link="https://www.multitravel.com/flights/"
-        />
-        <Secciones
-          boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-paquetes.webp"
-          boxs_ofertas_text="Paquetes"
-          btn_link="https://www.multitravel.com/packages/flighthotel/"
-        />
+        <div className="main__container_secciones">
+          <Secciones
+            boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-alojamiento.webp"
+            boxs_ofertas_text="Alojamiento"
+            btn_link="https://www.multitravel.com/hotels/"
+          />
+          <Secciones
+            boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-vuelo.webp"
+            boxs_ofertas_text="Vuelos"
+            btn_link="https://www.multitravel.com/flights/"
+          />
+          <Secciones
+            boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-paquetes.webp"
+            boxs_ofertas_text="Paquetes"
+            btn_link="https://www.multitravel.com/packages/flighthotel/"
+          />
+        </div>
       </>
     );
   }

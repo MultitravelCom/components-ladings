@@ -236,3 +236,6 @@
     width: 76px;
     height: 120px;
 }
+.main__container_secciones{
+    display: flex;
+}

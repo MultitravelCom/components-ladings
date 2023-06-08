@@ -8,8 +8,6 @@ function App() {
       <div className="main__container_app_components">
         <Redes />
         <Pagos />
-      </div>
-      <div className="main__container__app_ofertas">
         <Ofertas />
       </div>
     </>
