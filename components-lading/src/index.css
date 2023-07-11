@@ -5,7 +5,6 @@
 }
 
 .main__container_app_components {
-    background-color: #D3EAFF;
     padding: 1rem;
 }
 
@@ -118,6 +117,8 @@
     align-items: center;
     justify-content: center;
     gap: 36px;
+    position: relative;
+    top: -62px;
 }
 
 .main__container__boxs__pagos {
@@ -194,6 +195,7 @@
     text-align: left;
     margin: auto;
     margin-bottom: 2rem;
+    top: -63px;
 }
 
 .main__container__redes__text {
@@ -238,4 +240,13 @@
 }
 .main__container_secciones{
     display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+.main__container_app_components__backBlue{
+    background-color: #d3eaff;
+    padding: 1rem;
+    position: relative;
+    height: 357px;
+    margin-top: 5rem;
 }
