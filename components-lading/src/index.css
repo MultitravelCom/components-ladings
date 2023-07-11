@@ -238,15 +238,28 @@
     width: 76px;
     height: 120px;
 }
-.main__container_secciones{
+
+.main__container_secciones {
     display: flex;
     margin-top: 1rem;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
 }
-.main__container_app_components__backBlue{
+
+.main__container_app_components__backBlue {
     background-color: #d3eaff;
     padding: 1rem;
     position: relative;
     height: 357px;
     margin-top: 5rem;
+}
+
+.main__container_app_components__ofertas>h2 {
+    color: black;
+    font-size: 18px;
+    font-family: Qanelas Soft;
+    font-weight: 500;
+    word-wrap: break-word
 }

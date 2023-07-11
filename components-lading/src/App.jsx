@@ -10,10 +10,10 @@ function App() {
           <Redes />
           <Pagos />
         </div>
-        <div>
           <h2>Más ofertas en Multitravel.com</h2>
+        <div className="main__container_app_components__ofertas">
+          <Ofertas />
         </div>
-        <Ofertas />
       </div>
     </>
   );
