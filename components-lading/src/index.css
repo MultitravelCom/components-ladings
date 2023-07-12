@@ -252,7 +252,7 @@
     background-color: #d3eaff;
     padding: 1rem;
     position: relative;
-    height: 357px;
+    height: 412px;
     margin-top: 5rem;
 }
 
@@ -262,4 +262,42 @@
     font-family: Qanelas Soft;
     font-weight: 500;
     word-wrap: break-word
+}
+
+body.home.home--default .home-v5__searcher,
+.multi-searcher__content {
+    background: #D3EAFF !important;
+    padding: 2rem 0;
+}
+
+#home-top {
+    margin-bottom: 0rem !important;
+}
+
+.main__container__bannerTop {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+#home-content-5 {
+    display: block !important;
+    padding: 2rem;
+    border-radius: 0px 0px 80px 0px;
+    background: #F0F0F0;
+}
+
+.main__container_center {
+    box-sizing: border-box;
+    margin-right: 16px;
+    width: 599px;
+    height: 260px;
+    background: #c4c4c4;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 4px 4px 8px -1px rgba(0,0,0,0.20);
 }
