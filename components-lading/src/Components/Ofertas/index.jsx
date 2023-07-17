@@ -74,21 +74,26 @@ function Ofertas() {
     return (
       <>
         <div className="main__container_secciones">
-          <Secciones
-            boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-alojamiento.webp"
-            boxs_ofertas_text="Alojamiento"
-            btn_link="https://www.multitravel.com/hotels/"
-          />
-          <Secciones
-            boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-vuelo.webp"
-            boxs_ofertas_text="Vuelos"
-            btn_link="https://www.multitravel.com/flights/"
-          />
-          <Secciones
-            boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-paquetes.webp"
-            boxs_ofertas_text="Paquetes"
-            btn_link="https://www.multitravel.com/packages/flighthotel/"
-          />
+          <h2 className="main__container_app_components__ofertas__h2 container">
+            Más ofertas en Multitravel.com
+          </h2>
+          <div className="main__container_app_components__ofertas__">
+            <Secciones
+              boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-alojamiento.webp"
+              boxs_ofertas_text="Alojamiento"
+              btn_link="https://www.multitravel.com/hotels/"
+            />
+            <Secciones
+              boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-vuelo.webp"
+              boxs_ofertas_text="Vuelos"
+              btn_link="https://www.multitravel.com/flights/"
+            />
+            <Secciones
+              boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-paquetes.webp"
+              boxs_ofertas_text="Paquetes"
+              btn_link="https://www.multitravel.com/packages/flighthotel/"
+            />
+          </div>
         </div>
       </>
     );

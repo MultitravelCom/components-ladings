@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Button";
+import ButtonTresSecciones from "../Button";
 import "./style.css";
 
 function Secciones({ boxs_ofertas_img, boxs_ofertas_text, btn_link }) {
@@ -12,10 +12,11 @@ function Secciones({ boxs_ofertas_img, boxs_ofertas_text, btn_link }) {
         <div className="main__container__ofertas__secciones__text">
           <p>{boxs_ofertas_text}</p>
         </div>
-        <Button
+        <ButtonTresSecciones
           style="btn btnStyleOfertas"
           link={btn_link}
           text="Ver más"
+          mobileText=">"
         />
       </div>
     </>

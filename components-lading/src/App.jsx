@@ -2,7 +2,6 @@ import Ofertas from "./Components/Ofertas";
 import Pagos from "./Components/Pagos";
 import Redes from "./Components/Redes";
 
-
 function App() {
   return (
     <>
@@ -11,14 +10,12 @@ function App() {
           <Redes />
           <Pagos />
         </div>
-        <h2>Más ofertas en Multitravel.com</h2>
-        <div className="main__container_app_components__ofertas">
+        <div className="main__container_app_components____seccion__ofertas">
           <Ofertas />
         </div>
       </div>
     </>
   );
 }
-
 
 export default App;
