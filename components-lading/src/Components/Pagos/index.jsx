@@ -14,7 +14,7 @@ function Pagos() {
       />
       <Boxs
         text_h2_pagos="Quienes somos"
-        text_p_pagos="Vení a descubrir el MultiTeam pa"
+        text_p_pagos="Conoce nuestro equipo y nuestra pasión"
         position_img="boxs_left"
         btn_position="btnStylePagos__right"
         boxs_pagos_img="https://multitravelcom.github.io/components-ladings/img/MedisodePago-Desktop2.png"

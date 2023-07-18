@@ -74,9 +74,12 @@ function Ofertas() {
     return (
       <>
         <div className="main__container_secciones">
-          <h2 className="main__container_app_components__ofertas__h2 container">
-            Más ofertas en Multitravel.com
-          </h2>
+          <div class="offer-title">
+            <div class="text-left">
+              <h2 class="title_h2"><b>Más ofertas en Multitravel.com</b>
+              </h2>
+            </div>
+          </div>
           <div className="main__container_app_components__ofertas__">
             <Secciones
               boxs_ofertas_img="https://multitravelcom.github.io/MT/Secciones/EnTodo/product-alojamiento.webp"

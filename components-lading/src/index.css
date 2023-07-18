@@ -182,7 +182,7 @@
     position: relative;
     text-align: left;
     margin: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 40px;
     top: -63px;
     align-items: center;
     justify-content: flex-end;
@@ -199,8 +199,9 @@
     align-items: center;
     justify-content: center;
 }
-.redes__img_circle:hover{
-    background-color: #00305b ;
+
+.redes__img_circle:hover {
+    background-color: #00305b;
     color: white;
 }
 
@@ -226,7 +227,8 @@
     line-height: 30px;
     margin-bottom: 5px;
 }
-.main__container__redes__text>p{
+
+.main__container__redes__text>p {
     font-weight: bold;
 }
 
@@ -249,7 +251,7 @@
 }
 
 .main__container__redes__img_left {
-    bottom: -3px;
+    bottom: 0px;
     position: absolute;
     left: 16px;
     width: 76px;
@@ -258,11 +260,12 @@
 
 .main__container_secciones {
     display: flex;
-    margin-top: 1rem;
+    margin-top: 2rem;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
     flex-direction: column;
+    align-content: center;
 }
 
 .main__container_app_components__backBlue {
@@ -279,6 +282,7 @@
     font-weight: 500;
     word-wrap: break-word;
 }
+
 
 #home-content-4 {
     width: 100%;
@@ -299,6 +303,13 @@
     font-weight: 600;
     padding-left: 0;
 }
+
+.title_h2 {
+    font-weight: 700;
+    font-size: 20px !important;
+    letter-spacing: 0.1px;
+}
+
 @media (min-width: 768px) and (max-width:1023px) {
     .main__container__redes__img {
         display: none;
@@ -311,8 +322,13 @@
     .main__container__redes__text>h2 {
         font-size: 20px;
     }
-    .main__container__ofertas__secciones{
+
+    .main__container__ofertas__secciones {
         width: 350px;
+    }
+
+    .main__container_secciones {
+        flex-direction: row;
     }
 }
 
@@ -361,7 +377,7 @@
 
     .main__container__boxs__pagos__text {
         width: 98%;
-        left: 16px;
+        left: 0;
         top: 9px;
     }
 
@@ -440,4 +456,3 @@
         flex-direction: column;
     }
 }
-
