@@ -31,30 +31,23 @@
     right: 26px;
     color: white;
     border-radius: 12px;
+    font-weight: bold;
 }
 
+.btnStyleOfertas:active,
 .btnStylePagos:active {
     color: white;
     background-color: #272626;
 }
 
-.btnStylePagos:active {
-    color: white;
-    background-color: #272626;
-}
-
-.btnStylePagos:hover {
-    color: white;
-    background-color: #283747;
-}
-
+.btnStyleOfertas:hover,
 .btnStylePagos:hover {
     color: white;
     background-color: #283747;
 }
 
 .btnStylePagos__left {
-    left: 14px;
+    left: 27px;
 }
 
 .main__container_app_components__ofertas__ {
@@ -97,7 +90,6 @@
 }
 
 .main__container__ofertas__secciones__text>p {
-    font-family: "Qanelas Soft";
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -142,11 +134,11 @@
 }
 
 .main__container__boxs__pagos__text {
-    width: 217px;
+    width: 241px;
     height: 75px;
     padding: 16px;
     position: absolute;
-    top: 31px;
+    top: 32px;
 }
 
 .text_position__right {
@@ -158,7 +150,6 @@
 }
 
 .main__container__boxs__pagos__text>h2 {
-    font-family: "Qanelas Soft";
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -167,7 +158,6 @@
 }
 
 .main__container__boxs__pagos__text>p {
-    font-family: "Qanelas Soft";
     font-style: normal;
     font-size: 16px;
     line-height: 19px;
@@ -199,8 +189,8 @@
 }
 
 .redes__img_circle {
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     background: white;
     border-radius: 50%;
     text-align: center;
@@ -208,6 +198,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.redes__img_circle:hover{
+    background-color: #00305b ;
+    color: white;
 }
 
 .main__container__redes__img_right {
@@ -222,19 +216,21 @@
 .main__container__redes__text {
     position: absolute;
     left: 10%;
-    bottom: 31px;
+    bottom: 23px;
 }
 
 .main__container__redes__text>h2 {
-    font-family: "Qanelas Soft";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
+    margin-bottom: 5px;
+}
+.main__container__redes__text>p{
+    font-weight: bold;
 }
 
 .main__container__redes>p {
-    font-family: "Qanelas Soft";
     font-style: normal;
     font-size: 16px;
     line-height: 20px;
@@ -300,9 +296,8 @@
     color: #000;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-
+    font-weight: 600;
+    padding-left: 0;
 }
 @media (min-width: 768px) and (max-width:1023px) {
     .main__container__redes__img {
@@ -417,6 +412,7 @@
         margin: 4px;
         z-index: 2;
         position: absolute;
+        overflow: hidden;
     }
 
     .main__container__ofertas__secciones__text>p {

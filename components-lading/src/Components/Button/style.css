@@ -18,6 +18,14 @@
 .btnStylePagos__right {
     right: 26px;
 }
+.btnStylePagos:hover{
+    background-color: #283747;
+    color: white;
+}
+.btnStylePagos::selection{
+    background-color: #272626;
+    color: white;
+}
 
 .btnStyleOfertas {
     position: absolute;
