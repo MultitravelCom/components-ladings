@@ -478,6 +478,9 @@
     }
     .main__container__bannerTop{
         border-radius: 0px;
+        justify-content: flex-start;
+        padding: 1rem;
+        gap: 0;
     }
     #home-top > div.home-v5__searcher{
         display: inline;
