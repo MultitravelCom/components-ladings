@@ -1,15 +1,52 @@
-import React from "react";
+import React, { useEffect, useState, useRef } from "react";
 import "./style.css";
 
-function Button(props) {
+function ButtonTresSecciones(props) {
+  const [buttonText, setButtonText] = useState(props.text);
+  const clickInProgressRef = useRef(false);
+
+  const handleClickTresSecciones = (event) => {
+    event.preventDefault();
     
-    const handleClick = (event) => {
-        event.preventDefault();
-        window.open(props.link, '_blank');
+    if (!clickInProgressRef.current) {
+      clickInProgressRef.current = true;
+      window.open(props.link, '_blank');
     }
-    
-    return (
-        <button id={props.id} className={props.style} onClick={handleClick}>{props.text}</button>
-        );
+  };
+
+  const updateButtonText = () => {
+    if (props.mobileText && window.innerWidth <= 768) {
+      setButtonText(props.mobileText);
+    } else {
+      setButtonText(props.text);
+    }
+  };
+
+  useEffect(() => {
+    updateButtonText();
+    window.addEventListener("resize", updateButtonText);
+
+    return () => {
+      window.removeEventListener("resize", updateButtonText);
+    };
+  }, []);
+
+  useEffect(() => {
+    const resetClickInProgress = () => {
+      clickInProgressRef.current = false;
+    };
+
+    window.addEventListener("beforeunload", resetClickInProgress);
+    return () => {
+      window.removeEventListener("beforeunload", resetClickInProgress);
+    };
+  }, []);
+
+  return (
+    <button id={props.id} className={props.style} onClick={handleClickTresSecciones}>
+      {buttonText}
+    </button>
+  );
 }
-export default Button;
+
+export default ButtonTresSecciones;

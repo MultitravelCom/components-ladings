@@ -2,6 +2,12 @@ import Ofertas from "./Components/Ofertas";
 import Pagos from "./Components/Pagos";
 import Redes from "./Components/Redes";
 
+function removeContainerClass() {
+  const homeContent1 = document.getElementById("home-content-5");
+  homeContent1.classList.remove("container");
+}
+
+removeContainerClass();
 
 function App() {
   return (
