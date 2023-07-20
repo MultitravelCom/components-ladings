@@ -16,6 +16,7 @@ function Secciones({ boxs_ofertas_img, boxs_ofertas_text, btn_link }) {
           style="btn btnStyleOfertas"
           link={btn_link}
           text="Ver más"
+          mobileText=">"
         />
       </div>
     </>
