@@ -10,6 +10,7 @@ function Pagos() {
         position_img="boxs_right"
         btn_position="btnStylePagos__left"
         boxs_pagos_img="https://multitravelcom.github.io/components-ladings/img/MedisodePago-Desktop.png"
+        boxs_pagos_img_mobile="https://multitravelcom.github.io/components-ladings/img/MedisodePago-Mobile.png"
         text_position="text_position__left"
       />
       <Boxs
@@ -18,6 +19,7 @@ function Pagos() {
         position_img="boxs_left"
         btn_position="btnStylePagos__right"
         boxs_pagos_img="https://multitravelcom.github.io/components-ladings/img/MedisodePago-Desktop2.png"
+        boxs_pagos_img_mobile="https://multitravelcom.github.io/components-ladings/img/MedisodePago-Mobile2.png"
         text_position="text_position__right"
       />
     </div>

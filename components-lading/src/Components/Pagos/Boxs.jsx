@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import ButtonTresSecciones from "../Button/index.jsx";
+import Button from "../Button/index.jsx";
 
 function Boxs({
   text_h2_pagos,
@@ -8,7 +8,9 @@ function Boxs({
   text_position,
   position_img,
   boxs_pagos_img,
+  boxs_pagos_img_mobile,
   btn_position,
+
 }) {
   return (
     <div className="main__container__boxs__pagos">
@@ -18,19 +20,22 @@ function Boxs({
       </div>
       <div className={`main__container__boxs__pagos__img ${position_img}`}>
         <picture>
-          <source media="(min-width: 1024px)" srcSet={boxs_pagos_img} />
+          <source
+            media="(min-width: 1024px)"
+            srcSet={boxs_pagos_img}
+          />
           <source
             media="(min-width: 768px) and (max-width: 1023px)"
             srcSet={boxs_pagos_img}
           />
-          <source media="(max-width: 767px)" srcSet={boxs_pagos_img} />
-          <img className="main__container__boxs__pagos__img__img"
-            src={boxs_pagos_img}
-            alt="Imagen banner contacto personalizado"
+          <source
+            media="(max-width: 767px)"
+            srcSet={boxs_pagos_img_mobile}
           />
+          <img src={boxs_pagos_img}></img>
         </picture>
       </div>
-      <ButtonTresSecciones
+      <Button
         style={`btn btnStylePagos ${btn_position}`}
         link="https://www.multitravel.com/venta-personalizada/argentina"
         text="Descubrir"
