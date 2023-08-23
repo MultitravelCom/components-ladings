@@ -1,8 +1,25 @@
+import { useState, useEffect } from "react";
+import { changeBackgroundColor } from "../../Utils/changeBackground";
 import "./style.css";
 
 const Redes = () => {
+  const [backgroundColor, setBackgroundColor] = useState("#2A91EB");
+  const targetDate = new Date("2023-08-23T10:40:00");
+  const originalBackgroundColor = "#2A91EB";
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const newBackgroundColor = changeBackgroundColor(
+        targetDate,
+        originalBackgroundColor
+      );
+      setBackgroundColor(newBackgroundColor);
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
-    <div className="main__container__redes">
+    <div className="main__container__redes" style={{ backgroundColor }}>
       <div className="main__container__redes__img">
         <img
           src="https://multitravelcom.github.io/components-ladings/img/Imagen1.png"
@@ -24,7 +41,7 @@ const Redes = () => {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g id="Facebook svg" clip-path="url(#clip0_72_6187)">
+              <g id="Facebook svg" clipPath="url(#clip0_72_6187)">
                 <g id="g10">
                   <g id="g12">
                     <path
@@ -82,9 +99,9 @@ const Redes = () => {
                   y2="2.745"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#FFC107" />
-                  <stop offset="0.507" stop-color="#F44336" />
-                  <stop offset="0.99" stop-color="#B604EE" />
+                  <stop stopColor="#FFC107" />
+                  <stop offset="0.507" stopColor="#F44336" />
+                  <stop offset="0.99" stopColor="#B604EE" />
                 </linearGradient>
                 <linearGradient
                   id="paint1_linear_2415_5285"
@@ -94,8 +111,8 @@ const Redes = () => {
                   y2="16"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#7932F8" />
-                  <stop offset="1" stop-color="#ED1C69" stop-opacity="0.09" />
+                  <stop stopColor="#7932F8" />
+                  <stop offset="1" stopColor="#ED1C69" stopOpacity="0.09" />
                 </linearGradient>
                 <linearGradient
                   id="paint2_linear_2415_5285"
@@ -105,9 +122,9 @@ const Redes = () => {
                   y2="4.395"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#FFC107" />
-                  <stop offset="0.507" stop-color="#F44336" />
-                  <stop offset="0.99" stop-color="#B604EE" />
+                  <stop stopColor="#FFC107" />
+                  <stop offset="0.507" stopColor="#F44336" />
+                  <stop offset="0.99" stopColor="#B604EE" />
                 </linearGradient>
                 <linearGradient
                   id="paint3_linear_2415_5285"
@@ -117,9 +134,9 @@ const Redes = () => {
                   y2="6.23098"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#FFC107" />
-                  <stop offset="0.507" stop-color="#F44336" />
-                  <stop offset="0.99" stop-color="#B604EE" />
+                  <stop stopColor="#FFC107" />
+                  <stop offset="0.507" stopColor="#F44336" />
+                  <stop offset="0.99" stopColor="#B604EE" />
                 </linearGradient>
               </defs>
             </svg>
@@ -150,7 +167,7 @@ const Redes = () => {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g id="YouTube svg" clip-path="url(#clip0_72_6225)">
+              <g id="YouTube svg" clipPath="url(#clip0_72_6225)">
                 <g id="g10">
                   <g id="g12">
                     <path

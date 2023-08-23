@@ -74,9 +74,9 @@ function Ofertas() {
     return (
       <>
         <div className="main__container_secciones">
-          <div class="offer-title">
-            <div class="text-left">
-              <h2 class="title_h2"><b>Más ofertas en Multitravel.com</b>
+          <div className="offer-title">
+            <div className="text-left">
+              <h2 className="title_h2"><b>Más ofertas en Multitravel.com</b>
               </h2>
             </div>
           </div>
