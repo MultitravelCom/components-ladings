@@ -311,9 +311,10 @@
 }
 #home-top > div.home-v5__searcher{
     background-color: #D3EAFF !important;
-    height: 257px;
+    min-height: 257px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 #home-top{
     margin-bottom: inherit !important;
